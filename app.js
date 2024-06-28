@@ -8,6 +8,7 @@ new Vue({
         topicImportance: {},
         partyAlignment: {},
         loading: true,
+        showSettings: false,
         importanceOptions: [
           { value: 1, label: "Extremely Important", weight: 1 },
           { value: 0.75, label: "Very Important", weight: 0.75 },
@@ -27,7 +28,7 @@ new Vue({
     },
     methods: {
       fetchQuizData() {
-        fetch('quizData.json?v=3333444xxx')
+        fetch('quizData.json?v=8b754e63c67d4dd8b79f1620b7eb1a23')
           .then(response => response.json())
           .then(data => {
             this.quizData = data;
@@ -126,6 +127,9 @@ new Vue({
         const topicIndex = this.quizData.topics.findIndex(t => t.title === currentQuestion.topic);
         const questionInTopicIndex = this.quizData.topics[topicIndex].questions.findIndex(q => q.question === currentQuestion.question);
         return this.answers[`${topicIndex}-${questionInTopicIndex}`];
+      },
+      toggleSettings() {
+        this.showSettings = !this.showSettings;
       }
     }
   });

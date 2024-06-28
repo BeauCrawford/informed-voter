@@ -15,6 +15,25 @@
     </div>
 
     <div v-else>
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Political Alignment Quiz</h1>
+        <a href="#" @click.prevent="toggleSettings" class="btn btn-link">Settings</a>
+      </div>
+
+      <div v-if="showSettings" class="card mb-4">
+        <div class="card-header">Topic Importance</div>
+        <div class="card-body">
+          <div v-for="topic in quizData.topics" :key="topic.title" class="mb-2">
+            <label class="form-label">{{ topic.title }}</label>
+            <select class="form-control" v-model="topicImportance[topic.title]" @change="calculatePartyAlignment">
+              <option v-for="option in importanceOptions" :key="option.value" :value="option.weight">
+                {{ option.label }}
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+
       <div class="card mb-4">
         <div class="card-header">Party Alignment</div>
         <div class="card-body">
@@ -26,20 +45,6 @@
             <div class="progress">
               <div class="progress-bar" :style="{ width: partyAlignment[party.id] + '%' }"></div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-4">
-        <div class="card-header">Topic Importance</div>
-        <div class="card-body">
-          <div v-for="topic in quizData.topics" :key="topic.title" class="mb-2">
-            <label class="form-label">{{ topic.title }}</label>
-            <select class="form-control" v-model="topicImportance[topic.title]" @change="calculatePartyAlignment">
-              <option v-for="option in importanceOptions" :key="option.value" :value="option.weight">
-                {{ option.label }}
-              </option>
-            </select>
           </div>
         </div>
       </div>
@@ -87,6 +92,6 @@
       </div>
     </div>
   </div>
-  <script src="app.js?v=1a738cb66bfd45e99b983052df4da154xxxxxbbb"></script>
+  <script src="app.js?v=8b754e63c67d4dd8b79f1620b7eb1a23"></script>
 </body>
 </html>
