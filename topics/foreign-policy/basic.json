@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "61f3095305474f788112d12dd1a38b2e",
+      "question": "What is your stance on the US supporting Ukraine against Russian aggression?",
+      "description": "This involves providing military, financial, and diplomatic support to Ukraine in its conflict with Russia.",
+      "weight": 0.9,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "f3a0354194ee49778ec3f74cf4446788",
+      "question": "How important are international alliances like NATO to US foreign policy?",
+      "description": "NATO (North Atlantic Treaty Organization) is a military alliance of Western countries aimed at collective defense.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "2aca501d283245eb8d12fdd920095fd2",
+      "question": "Should the US take a stronger stance against authoritarian regimes (e.g., China, North Korea)?",
+      "description": "Taking a stronger stance involves imposing sanctions and other measures to counteract authoritarian governments.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but cautiously",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, maintain current policies",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce confrontation",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "3a73ad150795485ba2e91c87969b845c",
+      "question": "Do you support continuing military aid to allies like Israel?",
+      "description": "Military aid includes providing weapons, training, and financial support to allied countries.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "d13b5c734ef5473e8b340c4267f6f3cb",
+      "question": "Should the US prioritize human rights in its foreign policy?",
+      "description": "Prioritizing human rights means making the protection of human rights a central goal in international relations.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, it's crucial",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with balance",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, current efforts are enough",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, it's not a priority",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    }
+  ]
+}

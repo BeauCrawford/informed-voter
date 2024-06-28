@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "18805179b2224267a49b4e58395a7743",
+      "question": "Should there be a pathway to citizenship for undocumented immigrants?",
+      "description": "A pathway to citizenship means creating a process for undocumented immigrants to become legal citizens.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with strict requirements",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, maintain current policies",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "No, and reduce current immigration",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "79268588c89149459b15763feb8e512b",
+      "question": "How should the US handle border security?",
+      "description": "Border security involves measures to prevent illegal immigration, drug trafficking, and other security threats.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Increase security measures significantly",
+          "D": 0.2,
+          "R": 0.8
+        },
+        {
+          "id": "B",
+          "value": "Strengthen border security, but also focus on legal immigration",
+          "D": 0.6,
+          "R": 0.4
+        },
+        {
+          "id": "C",
+          "value": "Maintain current security levels",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Reduce border security measures",
+          "D": 0.8,
+          "R": 0.2
+        }
+      ]
+    },
+    {
+      "id": "b363514a9b9d4c2289e8a26b2ec82eb7",
+      "question": "Do you support DACA (Deferred Action for Childhood Arrivals)?",
+      "description": "DACA protects eligible immigrant youth from deportation and provides work permits for a period of time.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "58fcd5d8e43648558c5ac53b3307abee",
+      "question": "Should the US increase the number of refugees it accepts?",
+      "description": "Accepting more refugees involves allowing more people fleeing persecution or conflict to resettle in the US.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with limits",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, keep the current numbers",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce the current numbers",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "b6ff75ede1a746ec892fa25248c31aa6",
+      "question": "How important is it to integrate immigrants into American society?",
+      "description": "Integration involves helping immigrants adapt to and become part of American culture and society.",
+      "weight": 0.7,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Important",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    }
+  ]
+}

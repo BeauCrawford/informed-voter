@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "f33a80c928c3410096212e1eef88db70",
+      "question": "How do you feel about raising the minimum wage?",
+      "description": "The minimum wage is the lowest amount a worker can be paid per hour. Raising it means increasing this baseline pay.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "eb22c74a83ce4b1696995459cd780b8e",
+      "question": "What is your stance on government intervention to control inflation?",
+      "description": "Inflation is the rate at which the general level of prices for goods and services rises. Government intervention includes measures like adjusting interest rates and controlling money supply.",
+      "weight": 0.7,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Essential, government should actively manage the economy",
+          "D": 0.8,
+          "R": 0.2
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.6,
+          "R": 0.4
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Government should stay out of the economy",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "e5621a661c4f4a52ad2d7ae6a16ddf1b",
+      "question": "How important is it to you to support small businesses through government policies?",
+      "description": "Supporting small businesses means creating policies that help them thrive, such as tax breaks and grants.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.8,
+          "R": 0.2
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.6,
+          "R": 0.4
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "190dbd122644438695e03efa5e5ebe8e",
+      "question": "Do you support higher taxes on the wealthy to reduce income inequality?",
+      "description": "This involves increasing taxes on the rich to help distribute wealth more evenly across society.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.95,
+          "R": 0.05
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.05,
+          "R": 0.95
+        }
+      ]
+    },
+    {
+      "id": "4ac93163d9f84ec6973688a4f8797e6f",
+      "question": "Should the government invest in infrastructure projects (roads, bridges, internet) to stimulate the economy?",
+      "description": "Investing in infrastructure involves government spending on public projects to boost economic activity.",
+      "weight": 0.9,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some limits",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, the private sector should handle it",
+          "D": 0.2,
+          "R": 0.8
+        },
+        {
+          "id": "D",
+          "value": "No, it's not necessary",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    }
+  ]
+}

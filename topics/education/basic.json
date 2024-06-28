@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "e6f399c18fcf46079b2648f31a64a31f",
+      "question": "Should college be more affordable and accessible through government funding?",
+      "description": "Making college more affordable involves government subsidies and grants to reduce tuition costs.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some limitations",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "No, current efforts are sufficient",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce funding",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "6147a0877bd842949e697b52be9b1640",
+      "question": "How important is increasing funding for public education?",
+      "description": "Increasing funding for public education means allocating more government resources to K-12 schools.",
+      "weight": 0.9,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "5b492c7aa7e34f9b87b19ec5565e9abf",
+      "question": "Do you support student loan forgiveness programs?",
+      "description": "Student loan forgiveness involves canceling some or all of a student's debt.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "b12d03b33a0748818dffe4d0c5110132",
+      "question": "Should early childhood education be expanded and funded by the government?",
+      "description": "Expanding early childhood education means increasing government programs for children before they enter kindergarten.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some limits",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "No, maintain current levels",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce current programs",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "a469afb3dbd145d9aacb99e8c9c0b4b5",
+      "question": "How important is it to provide free or low-cost vocational training and apprenticeships?",
+      "description": "Vocational training and apprenticeships provide practical skills and work experience in various trades.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    }
+  ]
+}

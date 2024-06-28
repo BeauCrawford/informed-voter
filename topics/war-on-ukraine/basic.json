@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "13677fef901f437bb43e7d27ed3cc141",
+      "question": "Should the US continue providing financial and military aid to Ukraine?",
+      "description": "Providing aid to Ukraine means sending financial support and military equipment to help in their conflict with Russia.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some oversight",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "No, reduce aid",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "No, stop aid completely",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "ea98e557676b4aef8c150d95efd04770",
+      "question": "Do you believe in maintaining a strong stance against authoritarian regimes globally?",
+      "description": "A strong stance means implementing policies to counteract the influence of authoritarian governments.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, it's crucial",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some flexibility",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "No, maintain current policies",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce current efforts",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "cf8ba6b4714146d382a74c020c95036e",
+      "question": "How important is it to support democracy and human rights in foreign policy?",
+      "description": "Supporting democracy and human rights means prioritizing these values in international relations.",
+      "weight": 0.9,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "1f9708a4b54340978454589e10e73a68",
+      "question": "Should the US push for stronger sanctions against Russia?",
+      "description": "Sanctions are penalties imposed on countries to influence their behavior.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, absolutely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some limits",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "No, maintain current sanctions",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce sanctions",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "c542c737b991437e90d0098760a0f472",
+      "question": "Do you support increasing NATO presence in Eastern Europe?",
+      "description": "Increasing NATO presence means deploying more troops and resources to Eastern Europe to deter aggression.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "e6a98eb017b646d6b1e700163ae2ccbf",
+      "question": "What are your views on criminal justice reform?",
+      "description": "Criminal justice reform involves changes to policies and laws to address issues like mass incarceration and police practices.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support comprehensive reform",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "eb338a97e3da4fcfa2be562de46f2883",
+      "question": "How important is it to address systemic racism and promote racial equality?",
+      "description": "Addressing systemic racism involves tackling institutional practices that disadvantage racial minorities.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "a83e8a458d1a4865ba768348e7ef0cd9",
+      "question": "Do you support policies like affirmative action to promote diversity?",
+      "description": "Affirmative action involves policies that aim to increase opportunities for underrepresented groups.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "9f2127a56af64fd0a3bb0b1157082515",
+      "question": "Should law enforcement agencies be reformed to address issues of police brutality?",
+      "description": "Reforming law enforcement includes changes to policies and training to prevent excessive use of force.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, significant changes are needed",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, with some changes",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "No, current policies are sufficient",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce current regulations",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "1712fce75aba42f196c827acd979d591",
+      "question": "How important is it to ensure equal pay for equal work regardless of gender or race?",
+      "description": "Equal pay for equal work means ensuring that individuals receive the same pay for the same job, regardless of their gender or race.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    }
+  ]
+}

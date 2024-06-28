@@ -1,0 +1,1350 @@
+{
+  "parties": [
+    {
+      "title": "Republican",
+      "id": "R"
+    },
+    {
+      "title": "Democrat",
+      "id": "D"
+    }
+  ],
+  "topics": [
+    {
+      "id": "climate-change",
+      "title": "Climate Change",
+      "description": "Climate change refers to significant and lasting changes in the Earth's climate, especially the warming of the planet due to human activities such as burning fossil fuels, deforestation, and industrial processes. It results in shifts in weather patterns, rising sea levels, and increased frequency of extreme weather events, posing serious risks to ecosystems, human health, and economies globally.",
+      "questions": [
+        {
+          "id": "6615de4d3fd040348c6b4168d5a3579c",
+          "question": "How urgent is addressing climate change to you?",
+          "description": "Climate change refers to long-term changes in temperature and weather patterns, primarily due to human activities.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Extremely urgent",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Very urgent",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Somewhat urgent",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not urgent at all",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "2a42eda25ef94079a9f60c54c7d4c56c",
+          "question": "Should the US invest heavily in renewable energy sources?",
+          "description": "Renewable energy sources include wind, solar, and hydro power, which are sustainable and environmentally friendly.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but gradually",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, maintain current levels",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce investment",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "8e58e0891e1f411ea04601712b57ab11",
+          "question": "Do you support rejoining international climate agreements like the Paris Accord?",
+          "description": "The Paris Accord is an international treaty aimed at reducing carbon emissions to combat climate change.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "2db21e4bec4f40caa2d113ae0569e324",
+          "question": "Should the government impose stricter regulations on carbon emissions?",
+          "description": "Stricter regulations on carbon emissions would limit the amount of carbon dioxide and other greenhouse gases that industries can emit.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, absolutely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with flexibility for businesses",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, current regulations are sufficient",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, regulations should be relaxed",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "e52e2d8954014c41b58163e1905f1263",
+          "question": "How important is it to invest in climate resilience (e.g., flood defenses, wildfire prevention)?",
+          "description": "Investing in climate resilience means preparing for and mitigating the impacts of climate change, such as floods and wildfires.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "Economy",
+      "description": "The economy refers to the system of production, distribution, and consumption of goods and services within a particular geographic region, typically a country. It encompasses various sectors including agriculture, manufacturing, and services, and is influenced by factors such as government policies, global markets, and natural resources. Economic performance is measured through indicators like GDP, employment rates, and inflation, which reflect the overall health and growth of the economy.",
+      "questions": [
+        {
+          "id": "f33a80c928c3410096212e1eef88db70",
+          "question": "How do you feel about raising the minimum wage?",
+          "description": "The minimum wage is the lowest amount a worker can be paid per hour. Raising it means increasing this baseline pay.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "eb22c74a83ce4b1696995459cd780b8e",
+          "question": "What is your stance on government intervention to control inflation?",
+          "description": "Inflation is the rate at which the general level of prices for goods and services rises. Government intervention includes measures like adjusting interest rates and controlling money supply.",
+          "weight": 0.7,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Essential, government should actively manage the economy",
+              "D": 0.8,
+              "R": 0.2
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.6,
+              "R": 0.4
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Government should stay out of the economy",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "e5621a661c4f4a52ad2d7ae6a16ddf1b",
+          "question": "How important is it to you to support small businesses through government policies?",
+          "description": "Supporting small businesses means creating policies that help them thrive, such as tax breaks and grants.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.8,
+              "R": 0.2
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.6,
+              "R": 0.4
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "190dbd122644438695e03efa5e5ebe8e",
+          "question": "Do you support higher taxes on the wealthy to reduce income inequality?",
+          "description": "This involves increasing taxes on the rich to help distribute wealth more evenly across society.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.95,
+              "R": 0.05
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.05,
+              "R": 0.95
+            }
+          ]
+        },
+        {
+          "id": "4ac93163d9f84ec6973688a4f8797e6f",
+          "question": "Should the government invest in infrastructure projects (roads, bridges, internet) to stimulate the economy?",
+          "description": "Investing in infrastructure involves government spending on public projects to boost economic activity.",
+          "weight": 0.9,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some limits",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, the private sector should handle it",
+              "D": 0.2,
+              "R": 0.8
+            },
+            {
+              "id": "D",
+              "value": "No, it's not necessary",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "description": "Education refers to the systematic process of facilitating learning, acquiring knowledge, skills, values, and habits through various methods such as teaching, training, and research. It plays a crucial role in shaping individuals and societies. In relation to politics, education policy involves government decisions about the funding, administration, and curriculum of educational institutions. Political debates often focus on issues like educational equity, school choice, teacher salaries, and standardized testing. Education systems are seen as vital for national development, economic growth, and promoting democratic values.",
+      "questions": [
+        {
+          "id": "e6f399c18fcf46079b2648f31a64a31f",
+          "question": "Should college be more affordable and accessible through government funding?",
+          "description": "Making college more affordable involves government subsidies and grants to reduce tuition costs.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some limitations",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "No, current efforts are sufficient",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce funding",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "6147a0877bd842949e697b52be9b1640",
+          "question": "How important is increasing funding for public education?",
+          "description": "Increasing funding for public education means allocating more government resources to K-12 schools.",
+          "weight": 0.9,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "5b492c7aa7e34f9b87b19ec5565e9abf",
+          "question": "Do you support student loan forgiveness programs?",
+          "description": "Student loan forgiveness involves canceling some or all of a student's debt.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "b12d03b33a0748818dffe4d0c5110132",
+          "question": "Should early childhood education be expanded and funded by the government?",
+          "description": "Expanding early childhood education means increasing government programs for children before they enter kindergarten.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some limits",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "No, maintain current levels",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce current programs",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "a469afb3dbd145d9aacb99e8c9c0b4b5",
+          "question": "How important is it to provide free or low-cost vocational training and apprenticeships?",
+          "description": "Vocational training and apprenticeships provide practical skills and work experience in various trades.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign-policy",
+      "title": "Foreign Policy",
+      "description": "Foreign policy refers to a government's strategy and decisions in dealing with other nations. It encompasses a wide range of activities, including diplomacy, trade negotiations, military alliances, and international aid. Foreign policy aims to protect and promote a nation's interests, security, and values on the global stage. It is influenced by factors such as geopolitical dynamics, economic needs, historical relationships, and domestic political pressures. Key aspects include managing international conflicts, fostering economic cooperation, and addressing global challenges such as climate change, terrorism, and human rights.",
+      "questions": [
+        {
+          "id": "61f3095305474f788112d12dd1a38b2e",
+          "question": "What is your stance on the US supporting Ukraine against Russian aggression?",
+          "description": "This involves providing military, financial, and diplomatic support to Ukraine in its conflict with Russia.",
+          "weight": 0.9,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "f3a0354194ee49778ec3f74cf4446788",
+          "question": "How important are international alliances like NATO to US foreign policy?",
+          "description": "NATO (North Atlantic Treaty Organization) is a military alliance of Western countries aimed at collective defense.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "2aca501d283245eb8d12fdd920095fd2",
+          "question": "Should the US take a stronger stance against authoritarian regimes (e.g., China, North Korea)?",
+          "description": "Taking a stronger stance involves imposing sanctions and other measures to counteract authoritarian governments.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but cautiously",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, maintain current policies",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce confrontation",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "3a73ad150795485ba2e91c87969b845c",
+          "question": "Do you support continuing military aid to allies like Israel?",
+          "description": "Military aid includes providing weapons, training, and financial support to allied countries.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "d13b5c734ef5473e8b340c4267f6f3cb",
+          "question": "Should the US prioritize human rights in its foreign policy?",
+          "description": "Prioritizing human rights means making the protection of human rights a central goal in international relations.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, it's crucial",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with balance",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, current efforts are enough",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, it's not a priority",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign-policy",
+      "title": "Foreign Policy",
+      "description": "Foreign policy refers to a government's strategy and decisions in dealing with other nations. It encompasses a wide range of activities, including diplomacy, trade negotiations, military alliances, and international aid. Foreign policy aims to protect and promote a nation's interests, security, and values on the global stage. It is influenced by factors such as geopolitical dynamics, economic needs, historical relationships, and domestic political pressures. Key aspects include managing international conflicts, fostering economic cooperation, and addressing global challenges such as climate change, terrorism, and human rights.",
+      "questions": [
+        {
+          "id": "e796febd8edf4761a3e3b8bbb581f122",
+          "question": "Do you believe in expanding the Affordable Care Act (ACA)?",
+          "description": "The Affordable Care Act (ACA) is a health reform law aimed at expanding insurance coverage and reducing healthcare costs.",
+          "weight": 0.9,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.95,
+              "R": 0.05
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.05,
+              "R": 0.95
+            }
+          ]
+        },
+        {
+          "id": "b724b07713c040808d2d26c1dcba161a",
+          "question": "Should the government negotiate prescription drug prices with pharmaceutical companies?",
+          "description": "Negotiating drug prices means the government would directly discuss and set prices for medications with pharmaceutical companies to lower costs.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, absolutely",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some exceptions",
+              "D": 0.6,
+              "R": 0.4
+            },
+            {
+              "id": "C",
+              "value": "No, keep current policies",
+              "D": 0.2,
+              "R": 0.8
+            },
+            {
+              "id": "D",
+              "value": "No, and reduce government involvement further",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "29cae3825ea041d590fd9682a05d293c",
+          "question": "Do you support a single-payer healthcare system (Medicare for All)?",
+          "description": "A single-payer system means the government provides healthcare for everyone, funded by taxes.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.95,
+              "R": 0.05
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.05,
+              "R": 0.95
+            }
+          ]
+        },
+        {
+          "id": "1ae6dc2071c441c39702430d5c56d40b",
+          "question": "How important is it to ensure everyone has access to affordable healthcare?",
+          "description": "Ensuring access to affordable healthcare means making sure that all individuals can afford medical services.",
+          "weight": 0.9,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.95,
+              "R": 0.05
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.05,
+              "R": 0.95
+            }
+          ]
+        },
+        {
+          "id": "f6b1f7dd7c52482ebdb0914d0c77949c",
+          "question": "Should the government provide healthcare coverage for undocumented immigrants?",
+          "description": "This involves offering healthcare services to individuals who are in the country illegally.",
+          "weight": 0.7,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.8,
+              "R": 0.2
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some limits",
+              "D": 0.6,
+              "R": 0.4
+            },
+            {
+              "id": "C",
+              "value": "No, they should not receive coverage",
+              "D": 0.2,
+              "R": 0.8
+            },
+            {
+              "id": "D",
+              "value": "No, and reduce services for immigrants in general",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immigration",
+      "title": "Immigration",
+      "description": "Immigration refers to the movement of people into a country to live or work. It involves legal processes and policies that regulate who can enter, stay, and become a citizen of a country. Immigration can have significant social, economic, and political impacts, including contributions to labor markets, cultural diversity, and demographic changes. In politics, immigration policy debates often focus on issues such as border security, asylum seekers, the rights of undocumented immigrants, and pathways to citizenship. These discussions reflect broader concerns about national identity, economic needs, and human rights.",
+      "questions": [
+        {
+          "id": "18805179b2224267a49b4e58395a7743",
+          "question": "Should there be a pathway to citizenship for undocumented immigrants?",
+          "description": "A pathway to citizenship means creating a process for undocumented immigrants to become legal citizens.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with strict requirements",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, maintain current policies",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "No, and reduce current immigration",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "79268588c89149459b15763feb8e512b",
+          "question": "How should the US handle border security?",
+          "description": "Border security involves measures to prevent illegal immigration, drug trafficking, and other security threats.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Increase security measures significantly",
+              "D": 0.2,
+              "R": 0.8
+            },
+            {
+              "id": "B",
+              "value": "Strengthen border security, but also focus on legal immigration",
+              "D": 0.6,
+              "R": 0.4
+            },
+            {
+              "id": "C",
+              "value": "Maintain current security levels",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Reduce border security measures",
+              "D": 0.8,
+              "R": 0.2
+            }
+          ]
+        },
+        {
+          "id": "b363514a9b9d4c2289e8a26b2ec82eb7",
+          "question": "Do you support DACA (Deferred Action for Childhood Arrivals)?",
+          "description": "DACA protects eligible immigrant youth from deportation and provides work permits for a period of time.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "58fcd5d8e43648558c5ac53b3307abee",
+          "question": "Should the US increase the number of refugees it accepts?",
+          "description": "Accepting more refugees involves allowing more people fleeing persecution or conflict to resettle in the US.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with limits",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "No, keep the current numbers",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce the current numbers",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "b6ff75ede1a746ec892fa25248c31aa6",
+          "question": "How important is it to integrate immigrants into American society?",
+          "description": "Integration involves helping immigrants adapt to and become part of American culture and society.",
+          "weight": 0.7,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Important",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "war-on-ukraine",
+      "title": "War on Ukraine",
+      "description": "The War on Ukraine refers to Russia's invasion of Ukraine, which began in February 2022. This conflict has led to significant loss of life, widespread displacement of people, and extensive destruction of infrastructure. The war has major geopolitical implications, affecting international relations, global security, and economic stability. It has prompted widespread condemnation from the international community, leading to sanctions against Russia and support for Ukraine from various countries. Political debates focus on issues such as military aid to Ukraine, diplomatic efforts to end the conflict, the role of NATO, and the humanitarian response to the crisis.",
+      "questions": [
+        {
+          "id": "e6a98eb017b646d6b1e700163ae2ccbf",
+          "question": "What are your views on criminal justice reform?",
+          "description": "Criminal justice reform involves changes to policies and laws to address issues like mass incarceration and police practices.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support comprehensive reform",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "eb338a97e3da4fcfa2be562de46f2883",
+          "question": "How important is it to address systemic racism and promote racial equality?",
+          "description": "Addressing systemic racism involves tackling institutional practices that disadvantage racial minorities.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "a83e8a458d1a4865ba768348e7ef0cd9",
+          "question": "Do you support policies like affirmative action to promote diversity?",
+          "description": "Affirmative action involves policies that aim to increase opportunities for underrepresented groups.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "9f2127a56af64fd0a3bb0b1157082515",
+          "question": "Should law enforcement agencies be reformed to address issues of police brutality?",
+          "description": "Reforming law enforcement includes changes to policies and training to prevent excessive use of force.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, significant changes are needed",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, with some changes",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "No, current policies are sufficient",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce current regulations",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "1712fce75aba42f196c827acd979d591",
+          "question": "How important is it to ensure equal pay for equal work regardless of gender or race?",
+          "description": "Equal pay for equal work means ensuring that individuals receive the same pay for the same job, regardless of their gender or race.",
+          "weight": 0.75,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.7,
+              "R": 0.3
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "war-on-ukraine",
+      "title": "War on Ukraine",
+      "description": "The War on Ukraine refers to Russia's invasion of Ukraine, which began in February 2022. This conflict has led to significant loss of life, widespread displacement of people, and extensive destruction of infrastructure. The war has major geopolitical implications, affecting international relations, global security, and economic stability. It has prompted widespread condemnation from the international community, leading to sanctions against Russia and support for Ukraine from various countries. Political debates focus on issues such as military aid to Ukraine, diplomatic efforts to end the conflict, the role of NATO, and the humanitarian response to the crisis.",
+      "questions": [
+        {
+          "id": "13677fef901f437bb43e7d27ed3cc141",
+          "question": "Should the US continue providing financial and military aid to Ukraine?",
+          "description": "Providing aid to Ukraine means sending financial support and military equipment to help in their conflict with Russia.",
+          "weight": 0.85,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, definitely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some oversight",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "No, reduce aid",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "No, stop aid completely",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        },
+        {
+          "id": "ea98e557676b4aef8c150d95efd04770",
+          "question": "Do you believe in maintaining a strong stance against authoritarian regimes globally?",
+          "description": "A strong stance means implementing policies to counteract the influence of authoritarian governments.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, it's crucial",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some flexibility",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "No, maintain current policies",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce current efforts",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "cf8ba6b4714146d382a74c020c95036e",
+          "question": "How important is it to support democracy and human rights in foreign policy?",
+          "description": "Supporting democracy and human rights means prioritizing these values in international relations.",
+          "weight": 0.9,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Very important",
+              "D": 0.9,
+              "R": 0.1
+            },
+            {
+              "id": "B",
+              "value": "Somewhat important",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Not very important",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "Not important at all",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "1f9708a4b54340978454589e10e73a68",
+          "question": "Should the US push for stronger sanctions against Russia?",
+          "description": "Sanctions are penalties imposed on countries to influence their behavior.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Yes, absolutely",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Yes, but with some limits",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "No, maintain current sanctions",
+              "D": 0.4,
+              "R": 0.6
+            },
+            {
+              "id": "D",
+              "value": "No, reduce sanctions",
+              "D": 0.2,
+              "R": 0.8
+            }
+          ]
+        },
+        {
+          "id": "c542c737b991437e90d0098760a0f472",
+          "question": "Do you support increasing NATO presence in Eastern Europe?",
+          "description": "Increasing NATO presence means deploying more troops and resources to Eastern Europe to deter aggression.",
+          "weight": 0.8,
+          "choices": [
+            {
+              "id": "A",
+              "value": "Strongly support",
+              "D": 0.85,
+              "R": 0.15
+            },
+            {
+              "id": "B",
+              "value": "Support",
+              "D": 0.75,
+              "R": 0.25
+            },
+            {
+              "id": "C",
+              "value": "Oppose",
+              "D": 0.3,
+              "R": 0.7
+            },
+            {
+              "id": "D",
+              "value": "Strongly oppose",
+              "D": 0.1,
+              "R": 0.9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

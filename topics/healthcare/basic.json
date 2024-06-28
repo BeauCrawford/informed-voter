@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "e796febd8edf4761a3e3b8bbb581f122",
+      "question": "Do you believe in expanding the Affordable Care Act (ACA)?",
+      "description": "The Affordable Care Act (ACA) is a health reform law aimed at expanding insurance coverage and reducing healthcare costs.",
+      "weight": 0.9,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.95,
+          "R": 0.05
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.05,
+          "R": 0.95
+        }
+      ]
+    },
+    {
+      "id": "b724b07713c040808d2d26c1dcba161a",
+      "question": "Should the government negotiate prescription drug prices with pharmaceutical companies?",
+      "description": "Negotiating drug prices means the government would directly discuss and set prices for medications with pharmaceutical companies to lower costs.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, absolutely",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some exceptions",
+          "D": 0.6,
+          "R": 0.4
+        },
+        {
+          "id": "C",
+          "value": "No, keep current policies",
+          "D": 0.2,
+          "R": 0.8
+        },
+        {
+          "id": "D",
+          "value": "No, and reduce government involvement further",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "29cae3825ea041d590fd9682a05d293c",
+      "question": "Do you support a single-payer healthcare system (Medicare for All)?",
+      "description": "A single-payer system means the government provides healthcare for everyone, funded by taxes.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.95,
+          "R": 0.05
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.05,
+          "R": 0.95
+        }
+      ]
+    },
+    {
+      "id": "1ae6dc2071c441c39702430d5c56d40b",
+      "question": "How important is it to ensure everyone has access to affordable healthcare?",
+      "description": "Ensuring access to affordable healthcare means making sure that all individuals can afford medical services.",
+      "weight": 0.9,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.95,
+          "R": 0.05
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.05,
+          "R": 0.95
+        }
+      ]
+    },
+    {
+      "id": "f6b1f7dd7c52482ebdb0914d0c77949c",
+      "question": "Should the government provide healthcare coverage for undocumented immigrants?",
+      "description": "This involves offering healthcare services to individuals who are in the country illegally.",
+      "weight": 0.7,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.8,
+          "R": 0.2
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with some limits",
+          "D": 0.6,
+          "R": 0.4
+        },
+        {
+          "id": "C",
+          "value": "No, they should not receive coverage",
+          "D": 0.2,
+          "R": 0.8
+        },
+        {
+          "id": "D",
+          "value": "No, and reduce services for immigrants in general",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    }
+  ]
+}

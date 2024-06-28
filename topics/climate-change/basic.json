@@ -1,0 +1,165 @@
+{
+  "level": "basic",
+  "questions": [
+    {
+      "id": "6615de4d3fd040348c6b4168d5a3579c",
+      "question": "How urgent is addressing climate change to you?",
+      "description": "Climate change refers to long-term changes in temperature and weather patterns, primarily due to human activities.",
+      "weight": 0.85,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Extremely urgent",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Very urgent",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Somewhat urgent",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not urgent at all",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "2a42eda25ef94079a9f60c54c7d4c56c",
+      "question": "Should the US invest heavily in renewable energy sources?",
+      "description": "Renewable energy sources include wind, solar, and hydro power, which are sustainable and environmentally friendly.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, definitely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but gradually",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, maintain current levels",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, reduce investment",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "8e58e0891e1f411ea04601712b57ab11",
+      "question": "Do you support rejoining international climate agreements like the Paris Accord?",
+      "description": "The Paris Accord is an international treaty aimed at reducing carbon emissions to combat climate change.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Strongly support",
+          "D": 0.9,
+          "R": 0.1
+        },
+        {
+          "id": "B",
+          "value": "Support",
+          "D": 0.75,
+          "R": 0.25
+        },
+        {
+          "id": "C",
+          "value": "Oppose",
+          "D": 0.3,
+          "R": 0.7
+        },
+        {
+          "id": "D",
+          "value": "Strongly oppose",
+          "D": 0.1,
+          "R": 0.9
+        }
+      ]
+    },
+    {
+      "id": "2db21e4bec4f40caa2d113ae0569e324",
+      "question": "Should the government impose stricter regulations on carbon emissions?",
+      "description": "Stricter regulations on carbon emissions would limit the amount of carbon dioxide and other greenhouse gases that industries can emit.",
+      "weight": 0.8,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Yes, absolutely",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Yes, but with flexibility for businesses",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "No, current regulations are sufficient",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "No, regulations should be relaxed",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    },
+    {
+      "id": "e52e2d8954014c41b58163e1905f1263",
+      "question": "How important is it to invest in climate resilience (e.g., flood defenses, wildfire prevention)?",
+      "description": "Investing in climate resilience means preparing for and mitigating the impacts of climate change, such as floods and wildfires.",
+      "weight": 0.75,
+      "choices": [
+        {
+          "id": "A",
+          "value": "Very important",
+          "D": 0.85,
+          "R": 0.15
+        },
+        {
+          "id": "B",
+          "value": "Somewhat important",
+          "D": 0.7,
+          "R": 0.3
+        },
+        {
+          "id": "C",
+          "value": "Not very important",
+          "D": 0.4,
+          "R": 0.6
+        },
+        {
+          "id": "D",
+          "value": "Not important at all",
+          "D": 0.2,
+          "R": 0.8
+        }
+      ]
+    }
+  ]
+}
