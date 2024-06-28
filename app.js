@@ -27,7 +27,7 @@ new Vue({
     },
     methods: {
       fetchQuizData() {
-        fetch('quizData.json')
+        fetch('quizData.json?v=3333444xxx')
           .then(response => response.json())
           .then(data => {
             this.quizData = data;
