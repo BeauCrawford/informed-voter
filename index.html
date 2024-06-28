@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Political Alignment Quiz</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      border-color: #ccc;
+    }
+    .card-header {
+      background-color: #e9ecef;
+      border-bottom: 1px solid #ccc;
+      color: #333;
+    }
+    .card-body {
+      background-color: #fff;
+    }
+    .btn {
+      color: #333;
+      border-color: #ccc;
+    }
+    .btn-primary {
+      background-color: #666;
+      border-color: #666;
+    }
+    .btn-outline-primary {
+      color: #666;
+      border-color: #666;
+    }
+    .btn-secondary {
+      background-color: #999;
+      border-color: #999;
+    }
+    .progress {
+      background-color: #e9ecef;
+    }
+    .progress-bar {
+      background-color: #666;
+    }
+    .form-label {
+      color: #333;
+    }
+    .question-card {
+      margin-top: 20px;
+    }
+    .text-muted {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="container">
+    <div v-if="loading" class="text-center">
+      <p>Loading...</p>
+    </div>
+
+    <div v-else>
+      <div class="card mb-4">
+        <div class="card-header">Party Alignment</div>
+        <div class="card-body">
+          <div v-for="party in quizData.parties" :key="party.id" class="mb-2">
+            <div class="d-flex justify-content-between mb-1">
+              <span>{{ party.title }}</span>
+              <span>{{ partyAlignment[party.id].toFixed(1) }}%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" :style="{ width: partyAlignment[party.id] + '%' }"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="card-header">Topic Importance</div>
+        <div class="card-body">
+          <div v-for="topic in quizData.topics" :key="topic.title" class="mb-2">
+            <label class="form-label">{{ topic.title }}</label>
+            <select class="form-control" v-model="topicImportance[topic.title]" @change="calculatePartyAlignment">
+              <option v-for="option in importanceOptions" :key="option.value" :value="option.weight">
+                {{ option.label }}
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="currentQuestion" class="card question-card">
+        <div class="card-header">
+          <h3 class="mb-2">Topic: {{ currentQuestion.topic }}</h3>
+          <h2 class="mb-2">{{ currentQuestion.question }}</h2>
+          <p class="text-muted">{{ currentQuestion.description }}</p>
+        </div>
+        <div class="card-body">
+          <div v-for="choice in currentQuestion.choices" :key="choice.id">
+            <button class="btn btn-block" 
+                    :class="{'btn-primary': getCurrentAnswer() === choice.id, 'btn-outline-primary': getCurrentAnswer() !== choice.id}" 
+                    @click="handleAnswer(choice.id)">
+              {{ choice.value }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="!currentQuestion && Object.keys(topicImportance).some(topic => topicImportance[topic] > 0)" class="card question-card">
+        <div class="card-body">
+          <h2 class="mb-2">Quiz Completed!</h2>
+          <p>Thank you for taking the quiz. Your party alignment is shown above.</p>
+        </div>
+      </div>
+
+      <div v-if="!currentQuestion && !Object.keys(topicImportance).some(topic => topicImportance[topic] > 0)" class="card question-card">
+        <div class="card-body">
+          <h2 class="mb-2">No Topics Selected</h2>
+          <p>Please select the importance level for at least one topic to start the quiz.</p>
+        </div>
+      </div>
+
+      <div class="mt-4 d-flex justify-content-between align-items-center">
+        <button class="btn btn-secondary" @click="navigateQuestion(-1)" :disabled="currentQuestionIndex === 0">Previous</button>
+        <div class="text-center">
+          <div class="progress mb-2" style="width: 150px; height: 20px;">
+            <div class="progress-bar" role="progressbar" :style="{ width: (currentQuestionIndex / getTotalQuestions() * 100) + '%' }"></div>
+          </div>
+          <p>Question {{ currentQuestionIndex + 1 }} of {{ getTotalQuestions() }}</p>
+        </div>
+        <button class="btn btn-secondary" @click="navigateQuestion(1)" :disabled="currentQuestionIndex === getTotalQuestions() - 1">Next</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js?v98999"></script>
+</body>
+</html>

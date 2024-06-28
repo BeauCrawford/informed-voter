@@ -1,0 +1,59 @@
+{
+    "parties": [
+      { "id": "R", "title": "Republican" },
+      { "id": "D", "title": "Democrat" }
+    ],
+    "topics": [
+      {
+        "title": "Economy",
+        "questions": [
+          {
+            "question": "How do you feel about raising the minimum wage?",
+            "description": "The minimum wage is the lowest amount a worker can be paid per hour. Raising it means increasing this baseline pay.",
+            "choices": [
+              { "id": "A", "value": "Strongly support", "D": 0.9, "R": 0.1 },
+              { "id": "B", "value": "Support", "D": 0.7, "R": 0.3 },
+              { "id": "C", "value": "Oppose", "D": 0.3, "R": 0.7 },
+              { "id": "D", "value": "Strongly oppose", "D": 0.1, "R": 0.9 }
+            ]
+          },
+          {
+            "question": "What is your stance on government intervention to control inflation?",
+            "description": "Inflation is the rate at which the general level of prices for goods and services rises. Government intervention includes measures like adjusting interest rates and controlling money supply.",
+            "choices": [
+              { "id": "A", "value": "Essential, government should actively manage the economy", "D": 0.8, "R": 0.2 },
+              { "id": "B", "value": "Somewhat important", "D": 0.6, "R": 0.4 },
+              { "id": "C", "value": "Not very important", "D": 0.3, "R": 0.7 },
+              { "id": "D", "value": "Government should stay out of the economy", "D": 0.1, "R": 0.9 }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Healthcare",
+        "questions": [
+          {
+            "question": "Do you believe in expanding the Affordable Care Act (ACA)?",
+            "description": "The Affordable Care Act (ACA) is a health reform law aimed at expanding insurance coverage and reducing healthcare costs.",
+            "choices": [
+              { "id": "A", "value": "Strongly support", "D": 0.95, "R": 0.05 },
+              { "id": "B", "value": "Support", "D": 0.75, "R": 0.25 },
+              { "id": "C", "value": "Oppose", "D": 0.3, "R": 0.7 },
+              { "id": "D", "value": "Strongly oppose", "D": 0.05, "R": 0.95 }
+            ]
+          },
+          {
+            "question": "Should the government negotiate prescription drug prices with pharmaceutical companies?",
+            "description": "Negotiating drug prices means the government would directly discuss and set prices for medications with pharmaceutical companies to lower costs.",
+            "choices": [
+              { "id": "A", "value": "Yes, absolutely", "D": 0.9, "R": 0.1 },
+              { "id": "B", "value": "Yes, but with some exceptions", "D": 0.6, "R": 0.4 },
+              { "id": "C", "value": "No, keep current policies", "D": 0.2, "R": 0.8 },
+              { "id": "D", "value": "No, and reduce government involvement further", "D": 0.1, "R": 0.9 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
